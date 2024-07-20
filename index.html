@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvador Roel Rubi II - Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --text-color: #333;
+            --background-color: #f4f4f4;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+        }
+        
+        nav {
+            background-color: var(--secondary-color);
+            color: #fff;
+            padding: 0.5rem 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 2rem 0;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .card {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card ul {
+            padding-left: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .contact-info div {
+            margin: 10px;
+        }
+        
+        footer {
+            background-color: var(--secondary-color);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Salvador Roel Rubi II</h1>
+        <p>Technical Lead, Longview/OneStream</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Technical Lead specializing in Longview/OneStream with extensive experience in financial systems and data analytics. My expertise lies in creating system applications, automating processes, and implementing enhancement projects to meet business needs.</p>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Dover Business Services</h3>
+                    <p><strong>Technical Lead, Longview/OneStream</strong></p>
+                    <p>Jul 2021 - Present</p>
+                    <ul>
+                        <li>Subject Matter Expert in financial system processes</li>
+                        <li>Created system applications and automated processes</li>
+                        <li>Implemented enhancement projects</li>
+                        <li>Engaged with stakeholders across Global & Local BU functional teams</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Legal Match</h3>
+                    <p><strong>Senior Digital Marketing Analyst</strong></p>
+                    <p>Aug 2018 - Jul 2021</p>
+                    <ul>
+                        <li>Analyzed key performance metrics to increase SEO conversion</li>
+                        <li>Identified KPIs through A/B and multivariate testing</li>
+                        <li>Automated marketing reports to increase FTE</li>
+                        <li>Wrote Python codes to access Google Analytics API</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Author Solutions Phils. Inc.</h3>
+                    <p><strong>Report Analyst</strong></p>
+                    <p>Jun 2017 - Jun 2018</p>
+                    <ul>
+                        <li>Analyzed large datasets for international sales reports</li>
+                        <li>Developed processes to improve report preparation</li>
+                        <li>Collaborated with business leaders on reporting needs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills & Tools</h2>
+            <div class="grid">
+                <div class="card">Advanced MS Excel</div>
+                <div class="card">VBA</div>
+                <div class="card">SQL</div>
+                <div class="card">Looker (BI Tool)</div>
+                <div class="card">Python</div>
+                <div class="card">Power Automate</div>
+                <div class="card">Google Analytics</div>
+                <div class="card">Google Studios</div>
+                <div class="card">Jira</div>
+                <div class="card">Salesforce</div>
+                <div class="card">System Admin (ERP)</div>
+                <div class="card">Batch Command</div>
+                <div class="card">ETL</div>
+                <div class="card">Longview</div>
+            </div>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>Bachelor of Business Administration</h3>
+                <p>Silliman University, 2009 - 2013</p>
+            </div>
+        </section>
+        
+        <section id="certifications">
+            <h2>Certifications & Trainings</h2>
+            <div class="card">
+                <ul>
+                    <li>Lean Six Sigma – Yellow Belt Certified</li>
+                    <li>Lean Six Sigma – Green Belt Trained</li>
+                    <li>Data Analytics Essential</li>
+                    <li>Excel VBA Training</li>
+                    <li>Analytics for Business: Discovering Insights from Data</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <p>+447448466094</p>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <p>roelrubi@gmail.com</p>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Reigate, Surrey</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Salvador Roel Rubi II. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
